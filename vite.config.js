@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [react()],
   server: {
     proxy: {
-      "/api": "https://chatbox-backend-9att.onrender.com",
+      "/api": "http://localhost:5000/",
     },
   },
 });
